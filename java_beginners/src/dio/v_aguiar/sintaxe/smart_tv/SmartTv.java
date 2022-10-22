@@ -6,30 +6,30 @@ public class SmartTv {
   int volume = 25;
 
   public void turnOn() {
-    this.isOn = true;
+    isOn = true;
   }
 
   public void turnOff() {
-    this.isOn = false;
+    isOn = false;
   }
 
   public void channelUp() {
-    this.channel++;
+    channel++;
   }
 
   public void channelDown() {
-    this.channel--;
+    channel--;
   }
 
   public void setChannel(int channelNumber) {
-    this.channel = channelNumber;
+    channel = channelNumber;
   }
 
   public void volumeUp() {
-    this.volume++;
+    volume++;
   }
 
   public void volumeDown() {
-    this.volume--;
+    volume--;
   }
 }
